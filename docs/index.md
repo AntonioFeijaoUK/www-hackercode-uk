@@ -14,16 +14,23 @@ The meaning of `hacker` in here, will be related to the `good hacker` or `white 
 > 
 > - <https://en.wikipedia.org/wiki/Hacker#White_hat_hacker>
 
+---
 
+## Lastest posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 
 ---
 
-Disclaimer 
+## About Hacker Code UK
 
 Website mantained by [@AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
 
-This is a personal website, opinions expressed are mine and do not necessarily reflect the official policy or position of any other author, agency, organization, employer or company, including the Company.
- 
-
-[Hacker Code UK disclaimer](https://www.termsfeed.com/disclaimer/0e56c7daf0ac834444f8be0719e9dfba)
+This is a personal website, opinions expressed are mine and do not necessarily reflect the official policy or position of any other author, agency, organization, employer or company, including the Company. [Disclaimer](https://www.termsfeed.com/disclaimer/0e56c7daf0ac834444f8be0719e9dfba)
