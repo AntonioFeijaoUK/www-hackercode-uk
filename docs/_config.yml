@@ -1,1 +1,7 @@
 theme: jekyll-theme-hacker
+
+title: Hacker Code UK
+description: Online learning, training and educational material for white hackers, the good hackers!
+
+show_downloads: false
+google_analytics:
