@@ -1,7 +1,10 @@
 theme: jekyll-theme-hacker
+# theme source https://github.com/pages-themes/hacker
 
-title: Hacker Code UK
+title: Hacker Code UK by Antonio Feijao UK
+
 description: Online learning, training and educational material for white hackers, the good hackers!
 
 show_downloads: false
+
 google_analytics:
