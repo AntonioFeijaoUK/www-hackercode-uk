@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Hacker Code UK - Networking on AWS with hands on training
 date: 2020-04-22
 ---
