@@ -22,6 +22,7 @@ The meaning of `hacker` in here, will be related to the `good hacker` or `white 
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
