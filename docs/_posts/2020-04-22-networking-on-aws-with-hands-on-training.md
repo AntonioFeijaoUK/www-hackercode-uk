@@ -14,7 +14,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ---
 
-* [https://dashboard.eventengine.run/login](eventengine.run)
+* [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
 > Free tier
 > North Virginia
 
