@@ -14,9 +14,14 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ---
 
+## Useful links
+
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
-> Free tier
+> User `Free tier` option
 > North Virginia
+
+
+---
 
 ## Agenda Day 1 - start easy, cover the basics
 
@@ -203,3 +208,10 @@ EC2 metadata - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-ide
 ---
 
 ## Feedback
+
+> Did you learn something new today?
+> How was the presenter?
+> Was it good use of your time?
+> Thank you for your feedback?
+
+### [LINK to feedback Day 1](https://survey.immersionday.com/s00L_23ZR)
