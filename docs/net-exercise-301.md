@@ -1,5 +1,5 @@
 ---
-title: Networking Exercise level 301
+title: "Networking Exercise level 301"
 permalink: /net-exercise-301/
 ---
 
@@ -20,7 +20,7 @@ _**Note: Please delete the default VPC to remove the clutter**_
 
 3. Open a session to your OpenSwan instance using sessions manager and run the following commands.
 
-```bash
+```
 cd / 
 sudo ./connection-setup.sh <VPN-Endpoint-IP> <secret>
 
@@ -29,13 +29,13 @@ sudo ./connection-setup.sh <VPN-Endpoint-IP> <secret>
 
 4. Verify ipsec service and tunnel status.
 
-```bash
+```
 sudo ipsec verify
 sudo ipsec status
 ```
 
 5. Verify ip xfrm policies ( you should have an In, Out and Fwd rule)
 
-```bash
+```
 sudo ip xfrm policy
 ```
