@@ -1,5 +1,6 @@
 ---
 title: Networking Exercise level 301
+permalink: /net-exercise-301/
 ---
 
 The cloudformation template sets up intial VPCs and instances as depicted below.
