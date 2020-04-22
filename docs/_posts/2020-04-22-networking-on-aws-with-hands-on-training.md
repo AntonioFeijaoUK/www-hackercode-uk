@@ -20,7 +20,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ## Exercise 101
 
-![vpc igw ngw](./vpc-igw-ngw.png)
+![vpc igw ngw](/vpc-igw-ngw.png)
 
 
 ## Exercise 301
@@ -29,7 +29,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 [Networking Exercise 301 Template](/assets/net-exercise-301.yaml)
 
-![Networking Exercise 301](./net-exercise-301.png)
+![Networking Exercise 301](/net-exercise-301.png)
 
 
 ---
