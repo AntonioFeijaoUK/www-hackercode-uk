@@ -140,28 +140,28 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 *working in progress*
 
 
-[] VGW
-[] DWGX - Direct-Connect Gateway
-[] Access S3, through internal services service endpoints
-[] Op-prem connections, hybrid (focus on internal connection)
-[] Global Accelerator
+- VGW
+- DWGX - Direct-Connect Gateway
+- Access S3, through internal services service endpoints
+- Op-prem connections, hybrid (focus on internal connection)
+- Global Accelerator
    
-[] SD-WAN
+- SD-WAN
 
-[] Write a script - dealing with some automation
-[] CloudFormation
-[] CloudFormation template - <https://github.com/awslabs/aws-cloudformation-templates>
+- Write a script - dealing with some automation
+- CloudFormation
+- CloudFormation template - <https://github.com/awslabs/aws-cloudformation-templates>
 
-[] Route53 from the integration with internal DNS, integration with Active Directory
+- Route53 from the integration with internal DNS, integration with Active Directory
 
-[] Lambda
+- Lambda
 
-[] internal LoadBalancer (Hand-on)
+- internal LoadBalancer (Hand-on)
 
-[] Gateway endpoints
-[] PrivateLink
-[] NLB - Networking LoadBalancer
-[] Accelerator
+- Gateway endpoints
+- PrivateLink
+- NLB - Networking LoadBalancer
+- Accelerator
 
 
 ---
