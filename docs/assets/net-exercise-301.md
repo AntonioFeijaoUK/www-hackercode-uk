@@ -10,7 +10,7 @@ It is recommend to run the CF template in a new account as it creates 3 VPCs and
 
 _**Note: Please delete the default VPC to remove the clutter**_
 
-![net-exercise-301](./assets/images/net-exercise-301.png)
+![net-exercise-301](/images/net-exercise-301.png)
 
 ## Set up the VPN with DC VPC
 
