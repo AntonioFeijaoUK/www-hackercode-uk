@@ -1,7 +1,8 @@
 ---
 title: "Networking on AWS with hands on training"
+toc: true
 date: 2020-04-22
-catergories:
+categories:
     - AWS
     - Networking
 tags:
@@ -14,7 +15,11 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ---
 
-## Useful links
+{:toc}
+
+---
+
+## Useful links for the day
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
 > User `Free tier` option
@@ -23,11 +28,12 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ---
 
-## Agenda Day 1 - start easy, cover the basics
+## Agenda Day 1 - AWS EC2 and VPC fundamentals
 
 **08:00 - 08:10** ( 10m) - get ready, set, ready, go
 
-    - Account Region - 
+    - Account
+    - Region 
     - User Access
     - MFA?
     - users - roles - policies - permissions
@@ -63,10 +69,11 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
     - VPC-Endpoints
     - PrivateLink
     - Shared VPC
-    - Central Security VPC
-    - TGW
+    - Solution `Central Security VPC`
+    - AWS Transit Gateway (TGW)
     - VPN
     - VGW
+    - DX
     - DXGW
 
 
@@ -81,7 +88,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 * Check default VPC
     * ip range
-    * DHCP Option
+    * DHCP Options set
 * Created and review your own VPC with *VPC Wizard*
     * Allocate an “*Elastic IP*” or “*NAT instance*”
     * VPC Name
@@ -111,7 +118,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 * Internet Gateway (IGW)
 * Security Groups
 * Start and instance (web-server)
-    * userdata <--- see in resources
+    * userdata <--- see script in resources below
         
 ```
 
@@ -124,7 +131,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 * Private Subnet
 * NAT Gateway vs NAT Instance
-    * wordpress , webpage - database??? 
+* wordpress, webpage, database - "AWS Elastic Beanstalk" 
 
 ```
 
@@ -146,22 +153,22 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 ## Agenda Day 2 - start easy, cover the basics
 
-*working in progress*
-
-
 - VGW
-- DWGX - Direct-Connect Gateway
+- DX
+- DXGW - Direct-Connect Gateway
 - Access S3, through internal services service endpoints
 - Op-prem connections, hybrid (focus on internal connection)
-- Global Accelerator
    
 - SD-WAN
 
 - Write a script - dealing with some automation
+
 - CloudFormation
 - CloudFormation template - <https://github.com/awslabs/aws-cloudformation-templates>
 
-- Route53 from the integration with internal DNS, integration with Active Directory
+- Route53 
+
+- Route53 Resolver integration with internal DNS, integration with Active Directory
 
 - Lambda
 
@@ -170,14 +177,18 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 - Gateway endpoints
 - PrivateLink
 - NLB - Networking LoadBalancer
-- Accelerator
+- Global Accelerator
 
 
 ---
 
-## Questions
+## Questions Day 1
 
-?
+- "How do I check my the availability zone id?"
+    - On the console, you can check in VPC, then subnets.
+    - "An Availability Zone in my account doesn't map to the same location as an Availability Zone with the same name in a different account. However, you can use AZ IDs to map Availability Zones across accounts"
+    - see this link to find more <https://aws.amazon.com/premiumsupport/knowledge-center/vpc-map-cross-account-availability-zones/>
+
 
 ---
 
@@ -192,16 +203,20 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 - (Free access until end of April) - <https://app.pluralsight.com/library/courses/advanced-networking-aws/table-of-contents>
 
-### SCP Policies
+### Service control policies (SCPs)
 
-<https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_example-scps.html>
+- <https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_example-scps.html>
 
 
-### AWS EC2 sample userdata
+### AWS EC2 sample script for userdata
 
-lunch EC2 with webserver - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html>
+- "Running Commands on Your Linux Instance at Launch"
+    - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html>
 
-EC2 metadata - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-identity-documents.html>
+- "Instance metadata and user data"
+    - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-identity-documents.html>
+
+- Sample userdata shell script that install a webserver with basic information about the instance. Can you launch it with ALB?
 
 <script src="https://gist.github.com/AntonioFeijaoUK/d8533a71e5ecff2971f6859a7be426da.js"></script>
 
@@ -212,6 +227,15 @@ EC2 metadata - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-ide
 > Did you learn something new today?
 > How was the presenter?
 > Was it good use of your time?
-> Thank you for your feedback?
+> Thank you for your constructive feedback, it will make a difference on future training sessions.
 
-### [LINK to feedback Day 1](https://survey.immersionday.com/s00L_23ZR)
+### [LINK to feedback **Day 1**](https://survey.immersionday.com/s00L_23ZR)
+
+### [LINK to feedback **Day 2**](https://survey.immersionday.com/WBsY_hqWg)
+
+---
+
+## Follow up
+
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/antoniofeijaouk/)
+
