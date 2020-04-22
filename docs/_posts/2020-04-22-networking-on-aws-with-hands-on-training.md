@@ -14,7 +14,52 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ---
 
-## Agenda
+## Agenda Day 1 - start easy, cover the basics
+
+**08:00 - 08:10** ( 10m) - get ready, set, ready, go
+
+    - Account Region
+    - User Access
+    - MFA?
+    - users - roles - policies - permissions
+
+**08:10 - 09:10** ( 60m ) - Covering basics of Networking on AWS
+
+    - VPC - IP Range
+    - Security Groups (port 80 -  0.0.0.0/0)
+    - NALC
+    - Route Tables
+    - Availability Zones
+    - Regions
+    - ALB / ELB / NLB
+    - Elastic IPs
+
+**09:10 - 09:20** (10 min) - Quiz
+
+**09:20 - 09:30** (10m) - break
+
+**09:30 - 12:00** (2h:30m) - Exercise 1, 2 and 3
+
+**12:00 - 13:00** - lunch break
+
+**13:00 - 13:45** - Elastic Beanstalk with “Configure Options”
+
+    - Create environment
+    - Explore the options
+
+**13:45 - 14:00** - break
+
+**14:00 - 16:00** - Networking level 301
+
+    - VPC-Endpoints
+    - PrivateLink
+    - Shared VPC
+    - Central Security VPC
+    - TGW
+    - VPN
+    - VGW
+    - DXGW
+
 
 ---
 
