@@ -11,7 +11,7 @@ tags:
     - aws
 ---
 
-Networking on [AWS](https://aws.amazon.com) with hands on training
+Networking on [AWS](https://aws.amazon.com) with hands on training. This training session is delivered across 2 days. During **Day 1**, we will cover the basics [Why AWS](https://aws.amazon.com/products/), [What is Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html), [architectural best practices](https://aws.amazon.com/architecture/well-architected/), and lot more topics, and of course, `hands on`! ![TGW](https://d1.awsstatic.com/product-marketing/transit-gateway/tgw-after.d85d3e2cb67fd2ed1a3be645d443e9f5910409fd.png)
 
 ---
 
