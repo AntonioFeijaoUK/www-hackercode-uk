@@ -20,7 +20,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ## Exercises
 
-
+![vpc-igw-ngw](/images/vpc-igw-ngw.png)
 
 ---
 
