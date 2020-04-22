@@ -10,23 +10,13 @@
   </head>
 
   <body>
-
-    <header>
+    <div id="wrapper">
+      {% include header.html}
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        {% include header-links.html %}
+        <section id="main_content">
+          {{ content }}
+        </section>
       </div>
-
-    </header>
-    
-    
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
     </div>
 
     
