@@ -14,10 +14,34 @@ show_downloads: false
 
 google_analytics:
 
+
+## https://github.com/tocttou/hacker-blog
+
+baseurl: /
+
+source: .
+destination: ./_site
 permalink: pretty
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
 
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-
+  
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
