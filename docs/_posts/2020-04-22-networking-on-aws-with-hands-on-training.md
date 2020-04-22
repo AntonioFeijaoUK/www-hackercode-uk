@@ -16,7 +16,11 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ## Agenda
 
-...
+---
+
+## Exercises
+
+
 
 ---
 
