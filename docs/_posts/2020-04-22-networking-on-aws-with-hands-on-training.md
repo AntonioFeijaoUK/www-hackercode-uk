@@ -139,44 +139,29 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 *working in progress*
 
-```
-* VGW
-* DWGX - Direct-Connect Gateway
-* Access S3, through internal services service endpoints
-* Op-prem connections, hybrid (focus on internal connection)
-* Global Accelerator
-    *  - Good feedback for Antonio’s suggestion, customer start using
-* MAIN Request - Good understanding of the foundations - more hands on
 
-AF - How is a normal day for you operations team?
+[] VGW
+[] DWGX - Direct-Connect Gateway
+[] Access S3, through internal services service endpoints
+[] Op-prem connections, hybrid (focus on internal connection)
+[] Global Accelerator
+   
+[] SD-WAN
 
-* They use Cisco command line
-* They use basically Cisco equipment
-* Involved in small project, replace devices
-* We do not use Linux in the basic days
-* We use mostly Windows - 
-* We use accelerator from Silver Peak
-    * Silver Peak is a company that develops products for wide area networks, including WAN optimisation and *SD-WAN*
-* Write a script - dealing with some automation
-    * CloudFormation
-        * CloudFormation template - https://github.com/awslabs/aws-cloudformation-templates
-            * 2 VPC
-            * 3 subnet - a,b,c
-            * SG groups
-            * Route tables
-            * 
-        * Python
-        * Terraform
-* Route53 from the integration with internal DNS, integration with Active Directory
-* CloudFront - Lambda (if there is time)
-* LoadBalancer (Hand-on)
-    * We mostly focus on *internal network*
-        * Gateway endpoints
-        * PrivateLink
-    * Network - Networking LoadBalancer
-    * Accelerator
+[] Write a script - dealing with some automation
+[] CloudFormation
+[] CloudFormation template - <https://github.com/awslabs/aws-cloudformation-templates>
 
-```
+[] Route53 from the integration with internal DNS, integration with Active Directory
+
+[] Lambda
+
+[] internal LoadBalancer (Hand-on)
+
+[] Gateway endpoints
+[] PrivateLink
+[] NLB - Networking LoadBalancer
+[] Accelerator
 
 
 ---
