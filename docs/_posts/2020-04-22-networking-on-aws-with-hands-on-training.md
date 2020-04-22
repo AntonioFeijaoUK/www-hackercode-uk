@@ -18,8 +18,8 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 **08:00 - 08:10** ( 10m) - get ready, set, ready, go
 
-    - Account Region
-    - User Access
+    - Account Region - 
+    - User Access - [https://dashboard.eventengine.run/login](eventengine.run)
     - MFA?
     - users - roles - policies - permissions
 
