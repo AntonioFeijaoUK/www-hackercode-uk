@@ -1,6 +1,6 @@
 ---
 title: About Hacker Code UK
-permlink: /about
+permalink: /about/
 ---
 
 About Hacker Code UK
