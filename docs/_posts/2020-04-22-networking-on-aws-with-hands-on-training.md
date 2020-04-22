@@ -70,16 +70,17 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ## Exercise 301
 
-* [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
-
 [Networking Exercise 301 Template](/assets/net-exercise-301.yaml)
 
 ![Networking Exercise 301](/images/net-exercise-301.png)
 
+Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 ---
 
 ## Questions
+
+?
 
 ---
 
