@@ -6,7 +6,12 @@
 
 /* Make footer stick to bottom */
 
-footer {
+.pagination, footer {
   height: 50px;
-  text-align: center; 
+  line-height: 50px;
+  text-align: center;
+}
+
+#wrapper {
+  min-height: calc(100vh - 100px);
 }
