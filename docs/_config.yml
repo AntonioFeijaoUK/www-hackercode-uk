@@ -5,30 +5,16 @@ title: Hacker Code UK by Antonio Feijao UK
 
 description: "Online learning, training and educational material for white hackers, the good hackers!"
 
-author:
-  name: "Antonio Feijao UK"
-  email: "antoniofeijao@gmail.com"
-  url: "https://www.antoniocloud.com"
+#author:
+#  name: "Antonio Feijao UK"
+#  email: "antoniofeijao@gmail.com"
+#  url: "https://www.antoniocloud.com"
 
 show_downloads: false
 
 google_analytics:
 
-source: .
-destination: ./_site
 permalink: pretty
-paginate: 3
-paginate_path: /page/:num/
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-future: true
 
 plugins:
   - jekyll-seo-tag
