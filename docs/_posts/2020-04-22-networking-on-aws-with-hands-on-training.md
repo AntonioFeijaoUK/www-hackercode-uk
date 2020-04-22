@@ -63,18 +63,121 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ---
 
-## Exercise 101
+## Exercise level 101
 
 ![vpc igw ngw](/images/vpc-igw-ngw.png)
 
+```
+*Exercise 1 - Default VPC and Wizard VPC*
 
-## Exercise 301
+* Check default VPC
+    * ip range
+    * DHCP Option
+* Created and review your own VPC with *VPC Wizard*
+    * Allocate an “*Elastic IP*” or “*NAT instance*”
+    * VPC Name
+    * Public Subnet
+        * IP range
+        * Availability Zone
+        * Public Subnet name
+    * Private Subnet
+        * IP range
+        * Availability Zone
+        * Public Subnet name
+    * Use “*NAT instance*”
+    * delete...
+```
+
+---
+
+## Exercise level 102
+
+```
+*Exercise 2 - Public instance*
+
+* Create ROLE “*AmazonEC2RoleforSSM*”
+* Create Manually a VPC
+* Public Subnet
+* Routing Table
+* Internet Gateway (IGW)
+* Security Groups
+* Start and instance (web-server)
+    * userdata <--- see in resources
+        
+```
+
+---
+
+## Exercise level 103
+
+```
+*Exercise 3 - Private instance*
+
+* Private Subnet
+* NAT Gateway vs NAT Instance
+    * wordpress , webpage - database??? 
+
+```
+
+
+
+---
+
+## Exercise level 301
 
 [Networking Exercise 301 Template](/assets/net-exercise-301.yaml)
 
 ![Networking Exercise 301](/images/net-exercise-301.png)
 
 Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
+
+
+
+---
+
+## Agenda Day 2 - start easy, cover the basics
+
+*working in progress*
+
+```
+* VGW
+* DWGX - Direct-Connect Gateway
+* Access S3, through internal services service endpoints
+* Op-prem connections, hybrid (focus on internal connection)
+* Global Accelerator
+    *  - Good feedback for Antonio’s suggestion, customer start using
+* MAIN Request - Good understanding of the foundations - more hands on
+
+AF - How is a normal day for you operations team?
+
+* They use Cisco command line
+* They use basically Cisco equipment
+* Involved in small project, replace devices
+* We do not use Linux in the basic days
+* We use mostly Windows - 
+* We use accelerator from Silver Peak
+    * Silver Peak is a company that develops products for wide area networks, including WAN optimisation and *SD-WAN*
+* Write a script - dealing with some automation
+    * CloudFormation
+        * CloudFormation template - https://github.com/awslabs/aws-cloudformation-templates
+            * 2 VPC
+            * 3 subnet - a,b,c
+            * SG groups
+            * Route tables
+            * 
+        * Python
+        * Terraform
+* Route53 from the integration with internal DNS, integration with Active Directory
+* CloudFront - Lambda (if there is time)
+* LoadBalancer (Hand-on)
+    * We mostly focus on *internal network*
+        * Gateway endpoints
+        * PrivateLink
+    * Network - Networking LoadBalancer
+    * Accelerator
+
+```
+
 
 ---
 
@@ -107,3 +210,7 @@ lunch EC2 with webserver - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
 EC2 metadata - <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-identity-documents.html>
 
 <script src="https://gist.github.com/AntonioFeijaoUK/d8533a71e5ecff2971f6859a7be426da.js"></script>
+
+---
+
+## Feedback
