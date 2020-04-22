@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Networking Exercise level 301
 ---
 
