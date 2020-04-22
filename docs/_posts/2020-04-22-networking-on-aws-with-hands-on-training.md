@@ -15,10 +15,6 @@ Networking on [AWS](https://aws.amazon.com) with hands on training
 
 ---
 
-{:toc}
-
----
-
 ## Useful links for the day
 
 * [https://dashboard.eventengine.run/login](https://dashboard.eventengine.run/login)
@@ -193,6 +189,13 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 ---
 
 ## Resources
+
+### Sample of networking solutions
+
+- "Creating a single internet exit point from multiple VPCs Using AWS Transit Gateway"
+    - <https://aws.amazon.com/blogs/networking-and-content-delivery/creating-a-single-internet-exit-point-from-multiple-vpcs-using-aws-transit-gateway/>
+
+
 
 ### Online training
 
