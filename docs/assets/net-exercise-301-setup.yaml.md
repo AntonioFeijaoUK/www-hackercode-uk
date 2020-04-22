@@ -1,3 +1,9 @@
+---
+title: yaml file for cloudformation net-exercise-301
+---
+
+```yaml
+
 AWSTemplateFormatVersion: "2010-09-09"
 Description: "3 VPCs in 2 AZs  with Ec2 instances for webserver, openswan connectivity, bind instance and 3 testing instances"
 
@@ -936,3 +942,5 @@ Resources:
       Tags:
         - Key: Name
           Value: OpenSwanInstance
+
+```
