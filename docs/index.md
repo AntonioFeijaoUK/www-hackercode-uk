@@ -4,9 +4,7 @@ title: Hacker Code UK
 
 Hi and welcome to [HackerCode.UK](https://hackercode.uk).
 
-Still to decided what to do in here.
-
-The meaning of `hacker` in here, will be related to the `good hacker` or `white hacker`.
+The meaning of `hacker` in here, is to be related to the `good hacker` or `white hacker`.
 
 > White hats are hackers who work to keep data safe from other hackers by finding system vulnerabilities that can be mitigated.
 > White hats are usually employed by the target system's owner and are typically paid (sometimes quite well) for their work.
@@ -26,4 +24,3 @@ The meaning of `hacker` in here, will be related to the `good hacker` or `white 
     </li>
   {% endfor %}
 </ul>
-
