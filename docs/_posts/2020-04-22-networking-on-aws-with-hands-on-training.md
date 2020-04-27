@@ -233,9 +233,7 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 > Was it good use of your time?
 > Thank you for your constructive feedback, it will make a difference on future training sessions.
 
-### [LINK to feedback **Day 1**](https://survey.immersionday.com/s00L_23ZR)
-
-### [LINK to feedback **Day 2**](https://survey.immersionday.com/WBsY_hqWg)
+### Thank you for your feedback
 
 ---
 
