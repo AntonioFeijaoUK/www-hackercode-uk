@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Javascript console browser interaction and manipulation fundamentals by HackerOne"
+title: "Personal notes on Javascript console browser interaction and manipulation fundamentals by HackerOne"
 toc: true
 date: 2020-04-29
 categories:
