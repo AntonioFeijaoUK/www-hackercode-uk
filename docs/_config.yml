@@ -49,4 +49,4 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 
-#markdown: kramdown
+markdown: kramdown
