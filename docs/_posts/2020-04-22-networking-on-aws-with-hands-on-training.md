@@ -214,7 +214,9 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 - <https://youtu.be/9Nikqn_02Oc> - "AWS re:Invent 2019: [REPEAT 1] AWS Transit Gateway reference architectures for many VPCs (NET406-R1)"
 
+* reference network architecture (net406)
 
+![reference network architecture net406](/images/reference-network-architecture-net406.png)
 
 ---
 
