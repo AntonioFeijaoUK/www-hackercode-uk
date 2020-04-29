@@ -25,8 +25,6 @@ Javascript browser console manual interaction and manipulation fundamentals my n
 
 - <https://public-firing-range.appspot.com> - `Firing Range is a test bed for automated web application security scanners.`
 
-
 ### Online coding collaboration
 
 - <https://repl.it/> - `Code and collaborate, without friction.`
-
