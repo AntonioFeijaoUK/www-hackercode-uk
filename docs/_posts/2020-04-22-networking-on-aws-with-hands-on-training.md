@@ -13,15 +13,8 @@ tags:
 
 Networking on [AWS](https://aws.amazon.com) with hands on training. This training session is delivered across 2 days. During **Day 1**, we will cover the basics [Why AWS](https://aws.amazon.com/products/), [What is Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html), [architectural best practices](https://aws.amazon.com/architecture/well-architected/), and lot more topics, and of course, `hands on`! **Day 2** will be for advanced users where we will discuss [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/) and other [Networking and Content Delivery on AWS](https://aws.amazon.com/products/networking/) solutions!
 
----
-
-## Table of content
-
-* Table of content 
-
 {:toc}
 
----
 
 ## Useful links for the day
 
