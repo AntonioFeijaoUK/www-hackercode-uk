@@ -13,20 +13,17 @@ tags:
 
 Networking on [AWS](https://aws.amazon.com) with hands on training. This training session is delivered across 2 days. During **Day 1**, we will cover the basics [Why AWS](https://aws.amazon.com/products/), [What is Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html), [architectural best practices](https://aws.amazon.com/architecture/well-architected/), and lot more topics, and of course, `hands on`! **Day 2** will be for advanced users where we will discuss [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/) and other [Networking and Content Delivery on AWS](https://aws.amazon.com/products/networking/) solutions!
 
+---
+
+## Table of content
+
 {:toc}
-
-* Sample of an architecture with single internet exit point from multiple VPCs Using AWS Transit Gateway.
-
-![TGW](https://d2908q01vomqb2.cloudfront.net/5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/2019/10/01/TransitGateway2.png)
-
-> source <https://aws.amazon.com/blogs/networking-and-content-delivery/creating-a-single-internet-exit-point-from-multiple-vpcs-using-aws-transit-gateway/>
-
 
 ---
 
 ## Useful links for the day
 
-- [Account Login](https://dashboard.eventengine.run/login)
+- [Account Login](https://aws.amazon.com)
 
     User `Free tier` option
     North Virginia
@@ -238,6 +235,17 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 - Sample userdata shell script that install a webserver with basic information about the instance. Can you launch it with ALB?
 
 <script src="https://gist.github.com/AntonioFeijaoUK/d8533a71e5ecff2971f6859a7be426da.js"></script>
+
+---
+
+### Blog posts
+
+* Sample of an architecture with single internet exit point from multiple VPCs Using AWS Transit Gateway.
+
+![TGW](https://d2908q01vomqb2.cloudfront.net/5b384ce32d8cdef02bc3a139d4cac0a22bb029e8/2019/10/01/TransitGateway2.png)
+
+> source <https://aws.amazon.com/blogs/networking-and-content-delivery/creating-a-single-internet-exit-point-from-multiple-vpcs-using-aws-transit-gateway/>
+
 
 ---
 
