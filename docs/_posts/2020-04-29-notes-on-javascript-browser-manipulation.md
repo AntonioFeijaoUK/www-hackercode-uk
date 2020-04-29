@@ -25,4 +25,3 @@ Javascript browser console manual interaction and manipulation fundamentals my n
 
 - <https://repl.it/> - `Code and collaborate, without friction.`
 
-{% toc %}
