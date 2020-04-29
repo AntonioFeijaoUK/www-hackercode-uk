@@ -1,10 +1,8 @@
 ---
 title: "Networking on AWS with hands on training"
 layout: post
-author:
-  name: "Antonio Feijao UK"
-  email: "antoniofeijao@gmail.com"
-  url: "https://www.antoniocloud.com"
+toc: true
+author: "Antonio Feijao UK"
 date: 2020-04-22
 categories:
     - AWS
