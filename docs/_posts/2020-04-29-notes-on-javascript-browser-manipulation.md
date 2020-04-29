@@ -20,6 +20,25 @@ Javascript browser console manual interaction and manipulation fundamentals my n
 * auto-gen TOC:
 {:toc}
 
+## JavaScript manual manipulation on the browser
+
+- Developer Mode
+
+- Network
+
+- Filter by JS
+
+- or XHR
+
+- click the `{}` to have a [JavaScript beautifier](https://beautifier.io/) version of the inline code
+
+- Look at Messages
+
+- interact with messages - `window.postMessage(.....)`
+
+- (...) and more
+
+
 ## Useful websites
 
 ### Hacker 101
