@@ -1,6 +1,6 @@
 ---
-layout: default
 title: "Javascript browser manual manipulation with Hacker101 STOK and TomNomNom"
+layout: post
 toc: true
 date: 2020-04-29
 categories:
@@ -18,12 +18,10 @@ Javascript browser console manual interaction and manipulation fundamentals my n
 
 * Table of content 
 
+
 {:toc}
 
-- <https://public-firing-range.appspot.com/>
 
-> Firing Range is a test bed for automated web application security scanners.
+- <https://public-firing-range.appspot.com> - `Firing Range is a test bed for automated web application security scanners.`
 
-- <https://repl.it/>
-
-> Code and collaborate, without friction.
+- <https://repl.it/> - `Code and collaborate, without friction.`
