@@ -1,10 +1,7 @@
 ---
 title: "Javascript browser manual manipulation with Hacker101 STOK and TomNomNom"
 layout: post
-author:
-  name: "Antonio Feijao UK"
-  email: "antoniofeijao@gmail.com"
-  url: "https://www.antoniocloud.com"
+author: "Antonio Feijao UK"
 toc: true
 date: 2020-04-29
 categories:
@@ -25,3 +22,5 @@ Javascript browser console manual interaction and manipulation fundamentals my n
 - <https://public-firing-range.appspot.com> - `Firing Range is a test bed for automated web application security scanners.`
 
 - <https://repl.it/> - `Code and collaborate, without friction.`
+
+{% toc %}
