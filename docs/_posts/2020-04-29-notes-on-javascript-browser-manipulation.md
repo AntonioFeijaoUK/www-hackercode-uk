@@ -17,6 +17,7 @@ tags:
 
 Javascript browser console manual interaction and manipulation fundamentals my notes from video [Hacker101 - JavaScript for Hackers](https://youtu.be/FTeE3OrTNoA), created by [@STOKfredrik](https://twitter.com/STOKfredrik) and with special guest [@TomNomNom](https://twitter.com/TomNomNom).
 
+* auto-gen TOC:
 {:toc}
 
 ## useful websites
