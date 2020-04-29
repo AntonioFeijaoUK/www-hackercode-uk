@@ -138,7 +138,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-### Exercise 4
+### Exercise 4 - AWS Elastic Beanstalk, Autoscaling, Launch Configurations, NAT-Gateway and NAT-Instance
 
 - Using `AWS Elastic Beanstalk`
 
