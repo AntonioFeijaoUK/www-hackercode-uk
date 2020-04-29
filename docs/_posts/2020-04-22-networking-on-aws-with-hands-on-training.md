@@ -193,33 +193,33 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ### Exercise 1
 
-[ ] - Create a TGW
+[] - Create a TGW
 
-[ ] - Create VPC-192-168 (`192.168.0.0/24`)
-  [ ] - Public Subnet
-  [ ] - Private Subnet
+[] - Create VPC-192-168 (`192.168.0.0/24`)
+  [] - Public Subnet
+  [] - Private Subnet
   
-[ ] - Create VPC-10-0 (`10.0.0.0/24`)
-  [ ] - Public Subnet
-  [ ] - Private Subnet
+[] - Create VPC-10-0 (`10.0.0.0/24`)
+  [] - Public Subnet
+  [] - Private Subnet
 
-[ ] - Create SSM-ROLE for EC2
+[] - Create SSM-ROLE for EC2
 
-[ ] - Luanch 2 instances on each private subnet, attach the SSM-ROLE
-  [ ] - Instance private subnet on VPC-192-168
-  [ ] - Instance private subnet on VPC-10-0
+[] - Luanch 2 instances on each private subnet, attach the SSM-ROLE
+  [] - Instance private subnet on VPC-192-168
+  [] - Instance private subnet on VPC-10-0
 
 - **check point** - can you access both instances using SSM?
 
-[ ] - TGW Route tables
-[ ] - TGW Associations
-[ ] - Return route on VPC-192-168 route table
-[ ] - Return route on VPC-10-10 route table
+[] - TGW Route tables
+[] - TGW Associations
+[] - Return route on VPC-192-168 route table
+[] - Return route on VPC-10-10 route table
 
-[ ] - Can you `ping` on both directions?
-[ ] - Can you `curl` on both directions? (with python3 package you can start a simple webserver `python3 -m http.server 80`
-[ ] - `iperf` ?
-[ ] - `curl ipinfo.io/json`, `ifconfig`, `sudo netstat -pant`
+[] - Can you `ping` on both directions?
+[] - Can you `curl` on both directions? (with python3 package you can start a simple webserver `python3 -m http.server 80`
+[] - `iperf` ?
+[] - `curl ipinfo.io/json`, `ifconfig`, `sudo netstat -pant`
 
 - Advanecd users
   - Security Groups allowing only necessary ports
