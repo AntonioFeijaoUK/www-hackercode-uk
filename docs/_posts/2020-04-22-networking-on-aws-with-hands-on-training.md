@@ -1,6 +1,7 @@
 ---
-title: "Networking on AWS with hands on training"
+layout: default
 toc: true
+title: "Networking on AWS with hands on training"
 date: 2020-04-22
 categories:
     - AWS
