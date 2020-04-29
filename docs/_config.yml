@@ -1,7 +1,4 @@
-#theme: jekyll-theme-hacker  # theme source https://github.com/pages-themes/hacker
-#theme: jekyll-theme-minimal
 theme: jekyll-theme-primer
-#theme: jekyll-theme-midnight
 
 title: "Hacker Code UK by Antonio Feijao UK"
 
@@ -9,15 +6,19 @@ description: "Online learning, training and educational material for white hacke
 
 author:
   name: "Antonio Feijao UK"
-#  email: "antoniofeijao@gmail.com"
-#  url: "https://www.antoniocloud.com"
+  email: "antoniofeijao@gmail.com"
+  url: "https://www.antoniocloud.com"
+
+
+#theme: jekyll-theme-hacker  # theme source https://github.com/pages-themes/hacker ## https://github.com/tocttou/hacker-blog
+#theme: jekyll-theme-minimal
+#theme: jekyll-theme-midnight
+
 
 show_downloads: false
 
 google_analytics:
 
-
-## https://github.com/tocttou/hacker-blog
 
 baseurl: /
 
@@ -38,15 +39,16 @@ permalink: pretty
 #future: true
 
 plugins:
+  - jekyll-toc
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-toc
-  
+
+markdown: kramdown
+
 kramdown:
  input: GFM
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
 
-#markdown: kramdown
