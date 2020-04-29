@@ -5,7 +5,6 @@ author:
   name: "Antonio Feijao UK"
   email: "antoniofeijao@gmail.com"
   url: "https://www.antoniocloud.com"
-toc: true
 date: 2020-04-22
 categories:
     - AWS
@@ -17,6 +16,7 @@ tags:
 ---
 
 Networking on [AWS](https://aws.amazon.com) with hands on training. This training session is delivered across 2 days. During **Day 1**, we will cover the basics [Why AWS](https://aws.amazon.com/products/), [What is Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html), [architectural best practices](https://aws.amazon.com/architecture/well-architected/), and lot more topics, and of course, `hands on`! **Day 2** will be for advanced users where we will discuss [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/) and other [Networking and Content Delivery on AWS](https://aws.amazon.com/products/networking/) solutions!
+
 
 {:toc}
 
@@ -32,19 +32,21 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-## Agenda Day 1 - AWS EC2 and VPC fundamentals
+## Day 1
 
-**08:00 - 08:10** ( 10m) - get ready, set, ready, go
+### Agenda - AWS, EC2, VPC fundamentals, Networking fundamentals on AWS
 
-    - Account
-    - Region 
-    - User Access
-    - MFA?
-    - users - roles - policies - permissions
+- AWS Account
+- Region 
+- User Access
+- MFA
+- Users, Servers and permissions
+    - IAM, Users
+    - Roles, Servers, Instances, Serviecs
+    - Policies, Permissions
+    - SSO
 
-**08:10 - 09:10** ( 60m ) - Covering basics of Networking on AWS
-
-    - VPC - IP Range
+- VPC - IP Range
     - Security Groups (port 80 -  0.0.0.0/0)
     - NALC
     - Route Tables
@@ -53,43 +55,49 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
     - ALB / ELB / NLB
     - Elastic IPs
 
-**09:10 - 09:20** (10 min) - Quiz
+- Quiz
 
-**09:20 - 09:30** (10m) - break
+- Exercise 1, 2 and 3
 
-**09:30 - 12:00** (2h:30m) - Exercise 1, 2 and 3
+- Elastic Beanstalk with “Configure Options”
+  - Create environment
+  - Explore the options
+  - Review Autoscaling
 
-**12:00 - 13:00** - lunch break
-
-**13:00 - 13:45** - Elastic Beanstalk with “Configure Options”
-
-    - Create environment
-    - Explore the options
-
-**13:45 - 14:00** - break
-
-**14:00 - 16:00** - Networking level 301
-
-    - VPC-Endpoints
-    - PrivateLink
-    - Shared VPC
-    - Solution `Central Security VPC`
-    - AWS Transit Gateway (TGW)
-    - VPN
-    - VGW
-    - DX
-    - DXGW
-
+- Intro to Networking solutions on AWS
+  - VPC-Endpoints
+  - PrivateLink
+  - Shared VPC
+  - Solution `Central Security VPC`
+  - AWS Transit Gateway (TGW)
+  - VPN
+  - VGW
+  - DX
+  - DXGW
 
 ---
 
-## Exercise level 101
+### Exercise 1 - EC2 instance in the Default VPC
+
+- Luanch an EC2 instance in the Default VPC
+- User the `userdata` script provided below
+- Open the browseron the public ip address
+
+---
+
+### Exercise 2 - EC2 instance in private subnet
+
+- VPC Wizards
+  - Public Subnet
+  - Private Subnet
+
+- Luanch Instance in private subnet
+  - EC2 Amazon Linux v2
 
 ![vpc igw ngw](/images/vpc-igw-ngw.png)
 
-```
-*Exercise 1 - Default VPC and Wizard VPC*
 
+```
 * Check default VPC
     * ip range
     * DHCP Options set
@@ -110,11 +118,17 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-## Exercise level 102
+### Exercise 3 -  Connect to instance in private subnet without ssh keys
+
+- Create SSM ROLE
+  - attach SSM-Role to the instance in private subnet
+  - Connect view SSM
+  
+- Advanecd users
+  - Security Groups allowing only necessary ports
+  - Can you add PrivateLink EndPoints for SSM
 
 ```
-*Exercise 2 - Public instance*
-
 * Create ROLE “*AmazonEC2RoleforSSM*”
 * Create Manually a VPC
 * Public Subnet
@@ -128,7 +142,13 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-## Exercise level 103
+### Exercise 4
+
+- Using `AWS Elastic Beanstalk`
+
+- Create, investigate
+- Autoscaling group
+- Launch configuration
 
 ```
 *Exercise 3 - Private instance*
@@ -139,10 +159,11 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ```
 
-
 ---
 
-## Agenda Day 2 - start easy, cover the basics
+## Day 2
+
+### Agenda - Advanced networking solutions on AWS TGW, VGW, NatGW, DX, DXGW and more
 
 - VGW
 - DX
@@ -170,10 +191,44 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 - NLB - Networking LoadBalancer
 - Global Accelerator
 
-
 ---
 
-## Exercise level 301
+### Exercise 1
+
+[ ] - Create a TGW
+
+[ ] - Create VPC-192-168 (`192.168.0.0/24`)
+  [ ] - Public Subnet
+  [ ] - Private Subnet
+  
+[ ] - Create VPC-10-0 (`10.0.0.0/24`)
+  [ ] - Public Subnet
+  [ ] - Private Subnet
+
+[ ] - Create SSM-ROLE for EC2
+
+[ ] - Luanch 2 instances on each private subnet, attach the SSM-ROLE
+  [ ] - Instance private subnet on VPC-192-168
+  [ ] - Instance private subnet on VPC-10-0
+
+- **check point** - can you access both instances using SSM?
+
+[ ] - TGW Route tables
+[ ] - TGW Associations
+[ ] - Return route on VPC-192-168 route table
+[ ] - Return route on VPC-10-10 route table
+
+[ ] - Can you `ping` on both directions?
+[ ] - Can you `curl` on both directions? (with python3 package you can start a simple webserver `python3 -m http.server 80`
+[ ] - `iperf` ?
+[ ] - `curl ipinfo.io/json`, `ifconfig`, `sudo netstat -pant`
+
+- Advanecd users
+  - Security Groups allowing only necessary ports
+  - Can you add PrivateLink EndPoints for SSM
+
+
+- sample of [Cloudformation]()https://aws.amazon.com/cloudformation/ template code for the networking diagram below
 
 [Networking Exercise 301 Template](/assets/net-exercise-301.yaml)
 
@@ -184,7 +239,7 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 ---
 
-## Questions Day 1
+## Questions that come up during the training
 
 - "How do I check my the availability zone id?"
     - On the console, you can check in VPC, then subnets.
@@ -195,7 +250,6 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 ---
 
 ## Resources
-
 
 ### Online training
 
@@ -215,6 +269,13 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 * reference network architecture (net406)
 
 ![reference network architecture net406](/images/reference-network-architecture-net406.png)
+
+- [AWS Online Tech Talks's Youtube channel](https://www.youtube.com/channel/UCT-nPlVzJI-ccQXlxjSvJmw)
+
+- [AmazonWebServices's Youtube channel](https://www.youtube.com/user/AmazonWebServices/featured)
+
+- [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/)
+
 
 ---
 
