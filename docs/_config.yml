@@ -19,21 +19,21 @@ google_analytics:
 
 baseurl: /
 
-source: .
-destination: ./_site
+#source: .
+#destination: ./_site
 permalink: pretty
-paginate: 3
-paginate_path: /page/:num/
+#paginate: 3
+#paginate_path: /page/:num/
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "post"
 
-future: true
+#future: true
 
 plugins:
   - jekyll-seo-tag
@@ -46,3 +46,5 @@ kramdown:
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
+
+#markdown: kramdown
