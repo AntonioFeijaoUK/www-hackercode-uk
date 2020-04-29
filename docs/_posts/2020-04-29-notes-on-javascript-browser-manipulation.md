@@ -1,7 +1,10 @@
 ---
 title: "Javascript browser manual manipulation with Hacker101 STOK and TomNomNom"
 layout: post
-name: Antonio Feijao UK
+author:
+  name: "Antonio Feijao UK"
+  email: "antoniofeijao@gmail.com"
+  url: "https://www.antoniocloud.com"
 toc: true
 date: 2020-04-29
 categories:
