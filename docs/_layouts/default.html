@@ -19,19 +19,26 @@
   </head>
   <body>
 
+    <div id="header">
+      
+          {% include header.html %}
+      
+    </div><!-- end header -->
+    
+    
     <div class="wrapper">
       
-      {% include header.html %}
-
        <section>
          
         {{ content }}
          
        </section>
 
+       {% include footer.html %}
+      
     </div>
     
-    {% include footer.html %}
+
     
     
     {% if site.google_analytics %}
