@@ -1,6 +1,7 @@
 ---
 title: "Javascript browser manual manipulation with Hacker101 STOK and TomNomNom"
 layout: post
+toc: true
 author: "Antonio Feijao UK"
 date: 2020-04-29
 categories:
