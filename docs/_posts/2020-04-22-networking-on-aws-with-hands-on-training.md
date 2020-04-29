@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Networking on AWS with hands on training"
 toc: true
 date: 2020-04-22
