@@ -188,7 +188,15 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-### Exercise 1
+### Exercise 5 - PrivateLink Endpoints
+
+- Network Load Balancer
+- Target Groups
+- Service Endpoint
+
+---
+
+### Exercise 6
 
 - Create a TGW
 
@@ -225,18 +233,20 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
   - Security Groups allowing only necessary ports
   - Can you add PrivateLink EndPoints for SSM
 
-- sample of [Cloudformation](https://aws.amazon.com/cloudformation/) template code for the networking diagram below
+- Networking Diagram 
 
-[Networking Exercise 301 Template](/assets/net-exercise-301.yaml)
+![vpc-192-168-to-vpc-10-0-0-via-tgw](/images/vpc-192-168-to-vpc-10-0-0-via-tgw.png)
+
+
+## Exercise 5 - Multi VPC with TGW and VPN
+
+- What is [Cloudformation](https://aws.amazon.com/cloudformation/)
+
+- [Cloudformation](https://aws.amazon.com/cloudformation/) template code for the networking diagram below [Networking Exercise 301 Template](/assets/net-exercise-301.yaml)
 
 ![Networking Exercise 301](/images/net-exercise-301.png)
 
 Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
-
-
-- Networking Diagram 
-
-![vpc-192-168-to-vpc-10-0-0-via-tgw](/images/vpc-192-168-to-vpc-10-0-0-via-tgw.png)
 
 ---
 
