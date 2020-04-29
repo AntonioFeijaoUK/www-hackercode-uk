@@ -209,8 +209,9 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 - (Free access until end of April) - <https://app.pluralsight.com/library/courses/advanced-networking-aws/table-of-contents>
 
-- <https://youtu.be/awrdICiS6ug> - "Advanced Architectures with AWS Transit Gateway - AWS Online Tech Talks"
+### Youtube videos
 
+- <https://youtu.be/awrdICiS6ug> - "Advanced Architectures with AWS Transit Gateway - AWS Online Tech Talks"
 
 - <https://youtu.be/9Nikqn_02Oc> - "AWS re:Invent 2019: [REPEAT 1] AWS Transit Gateway reference architectures for many VPCs (NET406-R1)"
 
