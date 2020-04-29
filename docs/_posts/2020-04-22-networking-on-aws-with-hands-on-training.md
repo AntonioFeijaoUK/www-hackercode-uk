@@ -233,6 +233,11 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
+
+- Networking Diagram 
+
+![vpc-192-168-to-vpc-10-0-0-via-tgw](/images/vpc-192-168-to-vpc-10-0-0-via-tgw.png)
+
 ---
 
 ## Questions that come up during the training
