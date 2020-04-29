@@ -44,15 +44,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-  #  - jekyll-toc
+  - jekyll-toc
 
-markdown: kramdown
+#markdown: kramdown
 
 
-#kramdown:
-# input: GFM
-# auto_ids: true
-# hard_wrap: false
-# syntax_highlighter: rouge
-# parse_block_html: true
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+ parse_block_html: true
  
