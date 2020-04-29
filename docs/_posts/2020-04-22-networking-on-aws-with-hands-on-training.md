@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Networking on AWS with hands on training"
 toc: true
 date: 2020-04-22
@@ -17,6 +16,8 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 ---
 
 ## Table of content
+
+* Table of content 
 
 {:toc}
 
