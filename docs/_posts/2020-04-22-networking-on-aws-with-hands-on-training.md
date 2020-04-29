@@ -73,7 +73,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-### Exercise 1 - EC2 instance in the Default VPC
+## Exercise 1 - EC2 instance in the Default VPC
 
 - Luanch an EC2 instance in the Default VPC
 - User the `userdata` script provided below
@@ -81,7 +81,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-### Exercise 2 - EC2 instance in private subnet
+## Exercise 2 - EC2 instance in private subnet
 
 - VPC Wizards
   - Public Subnet
@@ -114,7 +114,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-### Exercise 3 -  Connect to instance in private subnet without ssh keys
+## Exercise 3 -  Connect to instance in private subnet without ssh keys
 
 - Create SSM ROLE
   - attach SSM-Role to the instance in private subnet
@@ -138,7 +138,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-### Exercise 4 - AWS Elastic Beanstalk, Autoscaling, Launch Configurations, NAT-Gateway and NAT-Instance
+## Exercise 4 - AWS Elastic Beanstalk, Autoscaling, Launch Configurations, NAT-Gateway and NAT-Instance
 
 - Using `AWS Elastic Beanstalk`
 
@@ -188,15 +188,7 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 ---
 
-### Exercise 5 - PrivateLink Endpoints
-
-- Network Load Balancer
-- Target Groups
-- Service Endpoint
-
----
-
-### Exercise 6
+## Exercise 5 - From VPC-192-168 to VPC-10-0 via TGW
 
 - Create a TGW
 
@@ -229,16 +221,26 @@ Networking on [AWS](https://aws.amazon.com) with hands on training. This trainin
 
 - `curl ipinfo.io/json`, `ifconfig`, `sudo netstat -pant`
 
-- Additional challenge
-  - Security Groups allowing only necessary ports
-  - Can you add PrivateLink EndPoints for SSM
-
-- Networking Diagram 
+- Networking Diagram Exercise 5
 
 ![vpc-192-168-to-vpc-10-0-0-via-tgw](/images/vpc-192-168-to-vpc-10-0-0-via-tgw.png)
 
 
-## Exercise 5 - Multi VPC with TGW and VPN
+---
+
+## Exercise 6 - PrivateLink Endpoints
+
+- Network Load Balancer
+- Target Groups
+- Service Endpoint
+- Additional challenge
+  - Security Groups allowing only necessary ports
+  - Can you add PrivateLink EndPoints for SSM
+
+
+---
+
+## Exercise 7 - Multi VPC with TGW and VPN
 
 - What is [Cloudformation](https://aws.amazon.com/cloudformation/)
 
