@@ -1,5 +1,5 @@
-theme: jekyll-theme-hacker
-# theme source https://github.com/pages-themes/hacker
+#theme: jekyll-theme-hacker  # theme source https://github.com/pages-themes/hacker
+theme: jekyll-theme-minimal
 
 title: "Hacker Code UK by Antonio Feijao UK"
 
