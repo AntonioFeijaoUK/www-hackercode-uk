@@ -22,6 +22,10 @@ Javascript browser console manual interaction and manipulation fundamentals my n
 
 ## Useful websites
 
+### Hacker 101
+
+- [Hacker 101's Youtube playlist](https://www.youtube.com/watch?v=zPYfT9azdK8&list=PLxhvVyxYRviZd1oEA9nmnilY3PhVrt4nj)
+
 ### Web applications security testing and exploits
 
 - <https://public-firing-range.appspot.com> - `Firing Range is a test bed for automated web application security scanners.`
