@@ -288,6 +288,8 @@ Source [Networking Exercise 301](https://github.com/ajitsinghr/networkworkshop)
 
 - [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/)
 
+- [AWS Knowledge Center's youtube playlist](https://www.youtube.com/playlist?list=PLhr1KZpdzukfdjsOHZ-BazZt1iK1J8UUw)
+
 ---
 
 ### Service control policies (SCPs)
